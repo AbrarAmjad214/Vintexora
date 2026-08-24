@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>@yield('title')</title>
+<meta name="description" content="@yield('description')">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('css/web-design.css') }}">
+<link rel="stylesheet" href="{{ asset('css/service-pages.css') }}">
+<link rel="stylesheet" href="{{ asset('css/motion.css') }}">
+<link rel="stylesheet" href="{{ asset('css/chrome.css') }}">
+</head>
+<body>
+@include('partials.site-header')
+@yield('content')
+@include('partials.page-form')
+@include('partials.site-footer')
+@include('partials.site-services-drop')
+<script src="{{ asset('js/web-design.js') }}"></script>
+<script src="{{ asset('js/motion.js') }}"></script>
+<script src="{{ asset('js/site.js') }}"></script>
+</body>
+</html>
