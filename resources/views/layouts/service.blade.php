@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="{{ asset('css/service-pages.css') }}">
 <link rel="stylesheet" href="{{ asset('css/motion.css') }}">
 <link rel="stylesheet" href="{{ asset('css/chrome.css') }}">
-<link rel="stylesheet" href="{{ asset('css/ventix.css') }}?v=2">
+<link rel="stylesheet" href="{{ asset('css/ventix.css') }}?v=3">
 </head>
 <body>
 @include('partials.site-header')
@@ -23,7 +23,7 @@
 <script src="{{ asset('js/web-design.js') }}"></script>
 <script src="{{ asset('js/motion.js') }}"></script>
 <script src="{{ asset('js/site.js') }}"></script>
-<script src="{{ asset('js/ventix.js') }}?v=2"></script>
+<script src="{{ asset('js/ventix.js') }}?v=3"></script>
 @include('partials.seo-schema')
 </body>
 </html>

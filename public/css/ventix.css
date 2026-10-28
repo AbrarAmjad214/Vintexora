@@ -1,10 +1,11 @@
 /* Ventixora design layer — loaded last on every layout. Palette, 3D sections, CRO pieces, responsive fixes. */
 
 :root{
-  --bg:#05060e;
-  --bg-soft:#090b1a;
-  --surface:#0d1027;
-  --surface-2:#141a3d;
+  --bg:#0c0e2a;
+  --bg-soft:#11143a;
+  --surface:#171b48;
+  --surface-2:#1f2560;
+  --pink:#ec4899;
   --line:rgba(255,255,255,0.1);
   --line-soft:rgba(255,255,255,0.06);
   --violet:#8b6bff;
@@ -22,7 +23,71 @@
   --shadow-3d:0 1px 0 rgba(255,255,255,0.06) inset,0 30px 60px -30px rgba(0,0,0,0.9),0 18px 40px -24px rgba(91,140,255,0.35);
 }
 
-body{background:var(--bg);}
+/* ---------- Aurora background: deep indigo base with slow drifting colour light ---------- */
+html{background:#0a0b25;}
+body{background:transparent;position:relative;}
+body::before{
+  content:'';position:fixed;inset:-20vh -20vw;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(38% 34% at 14% 8%,rgba(139,107,255,0.42),transparent 70%),
+    radial-gradient(34% 30% at 88% 14%,rgba(56,200,255,0.30),transparent 70%),
+    radial-gradient(36% 34% at 78% 86%,rgba(236,72,153,0.22),transparent 70%),
+    radial-gradient(34% 32% at 6% 78%,rgba(91,140,255,0.28),transparent 70%),
+    linear-gradient(160deg,#0b0b28 0%,#141038 45%,#0a1030 100%);
+  animation:auroraDrift 26s ease-in-out infinite alternate;
+}
+body::after{
+  content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,0.07) 1px,transparent 1px);
+  background-size:26px 26px;
+  -webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);
+  mask-image:linear-gradient(180deg,#000,transparent 85%);
+}
+@keyframes auroraDrift{
+  0%{transform:translate3d(0,0,0) scale(1);}
+  50%{transform:translate3d(-4vw,3vh,0) scale(1.08);}
+  100%{transform:translate3d(3vw,-2vh,0) scale(1.04);}
+}
+
+/* Large bands become tinted glass so the aurora shows through */
+.trust,.marquee,.notch-divider,.problem-band,.checklist-section,.drop-band{
+  background:linear-gradient(90deg,rgba(139,107,255,0.08),rgba(56,200,255,0.06)) !important;
+  border-color:rgba(255,255,255,0.08) !important;
+}
+.why-band{
+  background:
+    radial-gradient(60% 80% at 50% 0%,rgba(139,107,255,0.25),transparent 70%),
+    linear-gradient(135deg,rgba(91,140,255,0.10),rgba(236,72,153,0.08)) !important;
+}
+.why-item{background:rgba(23,27,72,0.55) !important;}
+.audit-section{
+  background:
+    radial-gradient(50% 70% at 20% 0%,rgba(139,107,255,0.30),transparent 70%),
+    radial-gradient(40% 60% at 90% 100%,rgba(236,72,153,0.18),transparent 70%),
+    rgba(12,14,42,0.55) !important;
+}
+footer{background:linear-gradient(180deg,rgba(12,14,42,0.4),#08091f 70%) !important;border-top:1px solid rgba(255,255,255,0.08);}
+header{
+  background:rgba(14,15,46,0.72) !important;
+  -webkit-backdrop-filter:blur(16px) saturate(140%) !important;
+  backdrop-filter:blur(16px) saturate(140%) !important;
+  border-bottom:1px solid rgba(255,255,255,0.08) !important;
+}
+.hero{background:radial-gradient(50% 60% at 75% 30%,rgba(91,140,255,0.18),transparent 70%);}
+
+/* Section headings get a soft glow line */
+.section-head h2{text-shadow:0 0 40px rgba(139,107,255,0.25);}
+.eyebrow::before{background:linear-gradient(135deg,var(--violet),var(--pink));box-shadow:0 0 10px rgba(236,72,153,0.6);}
+
+/* Glass surfaces for cards and panels */
+.serve-card,.price-card,.loc-card,.audit3d,.story-panel,.audit-form,.compare-wrap,.faq-item,.feat-card,.vert-card{
+  background:linear-gradient(165deg,rgba(35,41,110,0.62),rgba(20,24,66,0.55)) !important;
+  border-color:rgba(255,255,255,0.12) !important;
+}
+/* Tiles stay near-opaque so the 1px grid gaps still read as dividers */
+.service-tile{background:linear-gradient(165deg,rgba(28,33,92,0.94),rgba(17,20,58,0.94)) !important;}
+.service-tile:hover{background:linear-gradient(165deg,rgba(64,52,150,0.95),rgba(30,60,120,0.92)) !important;}
+.story-visual{background:rgba(9,10,32,0.7) !important;}
 ::selection{background:rgba(139,107,255,0.45);color:#fff;}
 :focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px;}
 section[id],div[id]{scroll-margin-top:90px;}
