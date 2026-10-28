@@ -83,12 +83,12 @@
 
   <!-- ============ TRUST BAR ============ -->
   <div class="trust">
-    <div class="wrap trust-row">
-      <span class="trust-item">One accountable team</span>
-      <span class="trust-item">VAT-ready builds</span>
-      <span class="trust-item">Reporting tied to leads &amp; sales</span>
-      <span class="trust-item">UAE · USA · UK · Canada</span>
-      <span class="trust-item">No long-term lock-in</span>
+    <div class="wrap trust-pills">
+      <span class="pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="7" r="3"/><path d="M3 21v-1a6 6 0 0 1 12 0v1M16 3.5a3 3 0 0 1 0 7M21 21v-1a6 6 0 0 0-4-5.6"/></svg>One accountable team</span>
+      <span class="pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 14l6-6M9.5 8.5h.01M14.5 13.5h.01"/><path d="M4 4h16v16l-3-2-3 2-2-2-2 2-3-2-3 2z"/></svg>VAT-ready builds</span>
+      <span class="pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>Reporting tied to leads &amp; sales</span>
+      <span class="pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>UAE · USA · UK · Canada</span>
+      <span class="pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg>No long-term lock-in</span>
     </div>
   </div>
 
@@ -101,45 +101,31 @@
 
   <!-- ============ WHO WE SERVE ============ -->
   <section class="section" id="who">
-    <div class="wrap">
-      <div class="section-head reveal">
+    <div class="wrap split">
+      <div class="split-aside reveal">
         <div class="eyebrow">Who we serve</div>
         <h2>Built for the businesses that run the UAE economy</h2>
-        <p>Retail counters, restaurant kitchens, clinic front desks, and B2B sales teams don't need the same tools — so we don't sell them the same package.</p>
+        <p>Retail counters, restaurant kitchens, clinic front desks and B2B sales teams don't need the same tools — so we don't sell them the same package.</p>
+        <a href="#audit" class="btn btn-primary">Find my fit — free audit</a>
       </div>
       <div class="serve-grid">
-        <div class="serve-card reveal">
-          <div class="serve-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/><path d="M2 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L22 7H6"/></svg>
-          </div>
-          <h3>Retail &amp; E-Commerce</h3>
-          <p>Stores that need to sell online and manage stock in-store, in sync.</p>
-          <span class="serve-link">Retail solutions <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </div>
-        <div class="serve-card reveal">
-          <div class="serve-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 3v18M4 8h3a2 2 0 0 0 2-2V3M11 3v18M15 3v9a3 3 0 0 0 3 3v6M18 3v6"/></svg>
-          </div>
-          <h3>F&amp;B &amp; Hospitality</h3>
-          <p>POS, kitchen displays, and online ordering that survive a Friday night rush.</p>
-          <span class="serve-link">F&amp;B solutions <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </div>
-        <div class="serve-card reveal">
-          <div class="serve-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-4.35-9.5-8.5C.7 8.9 2.4 5 6 5c2 0 3.3 1 4 2.3C10.7 6 12 5 14 5c3.6 0 5.3 3.9 3.5 7.5C19 16.65 12 21 12 21z"/><path d="M9 11h2v-2h2v2h2v2h-2v2h-2v-2H9z"/></svg>
-          </div>
-          <h3>Healthcare &amp; Pharmacy</h3>
-          <p>Compliant, VAT-ready billing and booking systems for clinics and pharmacies.</p>
-          <span class="serve-link">Healthcare solutions <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </div>
-        <div class="serve-card reveal">
-          <div class="serve-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-          </div>
-          <h3>Corporate &amp; Professional Services</h3>
-          <p>Websites, branding, and lead generation for firms selling to other businesses.</p>
-          <span class="serve-link">Corporate solutions <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </div>
+        @php
+          $industries = [
+            ['Retail & E-Commerce', 'Stores that sell online and manage stock in-store, in sync.', 'ecommerce-solutions', 'Retail solutions', '<circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/><path d="M2 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L22 7H6"/>'],
+            ['F&B & Hospitality', 'POS, kitchen displays and online ordering that survive a Friday night rush.', 'pos-solutions', 'F&B solutions', '<path d="M4 3v18M4 8h3a2 2 0 0 0 2-2V3M11 3v18M15 3v9a3 3 0 0 0 3 3v6M18 3v6"/>'],
+            ['Healthcare & Pharmacy', 'Compliant, VAT-ready billing and booking systems for clinics and pharmacies.', 'pos-solutions', 'Healthcare solutions', '<path d="M12 21s-7-4.35-9.5-8.5C.7 8.9 2.4 5 6 5c2 0 3.3 1 4 2.3C10.7 6 12 5 14 5c3.6 0 5.3 3.9 3.5 7.5C19 16.65 12 21 12 21z"/>'],
+            ['Corporate & Professional', 'Websites, branding and lead generation for firms selling to other businesses.', 'web-design-development', 'Corporate solutions', '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>'],
+          ];
+        @endphp
+        @foreach ($industries as $i => [$title, $text, $slug, $link, $icon])
+          <a class="serve-card reveal" href="{{ route('services.show', $slug) }}">
+            <span class="serve-no">0{{ $i + 1 }}</span>
+            <div class="serve-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">{!! $icon !!}</svg></div>
+            <h3>{{ $title }}</h3>
+            <p>{{ $text }}</p>
+            <span class="serve-link">{{ $link }} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        @endforeach
       </div>
     </div>
   </section>
@@ -147,20 +133,40 @@
   <!-- ============ SERVICES GRID ============ -->
   <section class="section" id="services" style="padding-top:0;">
     <div class="wrap">
-      <div class="section-head reveal">
+      <div class="section-head center reveal">
         <div class="eyebrow">What we do</div>
-        <h2>Nine service divisions. One accountable partner.</h2>
+        <h2>Nine service divisions. <span class="grad-text">One accountable partner.</span></h2>
+        <p>Pick one to start, add the rest when growth asks for it. Same team, same reporting, same contract.</p>
       </div>
-      <div class="services-grid reveal">
-        <a class="service-tile" href="{{ route('services.show', 'web-design-development') }}"><span class="service-id">SYS.01</span><h3>Web Design &amp; Development</h3><p>Custom, corporate and e-commerce-ready websites built to convert, not just look good.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'ecommerce-solutions') }}"><span class="service-id">SYS.02</span><h3>E-Commerce Solutions</h3><p>Shopify, WooCommerce, and full store builds with payment gateways ready for the UAE market.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'hosting-maintenance-it') }}"><span class="service-id">SYS.03</span><h3>Hosting, Maintenance &amp; IT Support</h3><p>Hosting, backups, security, and monthly support so nothing breaks unnoticed.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'branding-visual-identity') }}"><span class="service-id">SYS.04</span><h3>Branding &amp; Visual Identity</h3><p>Logos, brand systems, and company profiles that make you look as good as you are.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'digital-marketing') }}"><span class="service-id">SYS.05</span><h3>Digital Marketing</h3><p>SEO, Google Ads, Meta Ads, and social media built around UAE search behavior.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'mobile-app-development') }}"><span class="service-id">SYS.06</span><h3>Mobile App Development</h3><p>Flutter, iOS, and Android apps for customer-facing and internal tools.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'ai-business-automation') }}"><span class="service-id">SYS.07</span><h3>AI &amp; Business Automation</h3><p>Chatbots, CRM automation, and workflow tools that save hours every week.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'software-quality-assurance') }}"><span class="service-id">SYS.08</span><h3>Software Quality Assurance</h3><p>Manual, automation, and performance testing so launches do not leak revenue.</p></a>
-        <a class="service-tile" href="{{ route('services.show', 'pos-solutions') }}"><span class="service-id">SYS.09</span><h3>POS Solutions</h3><p>VAT-compliant point-of-sale for retail, F&amp;B, pharmacy, and multi-branch operations.</p></a>
+      @php
+        $svcIcons = [
+          'web-design-development' => '<rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/>',
+          'ecommerce-solutions' => '<path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/>',
+          'hosting-maintenance-it' => '<rect x="3" y="3" width="18" height="7" rx="1.5"/><rect x="3" y="14" width="18" height="7" rx="1.5"/><path d="M7 6.5h.01M7 17.5h.01"/>',
+          'branding-visual-identity' => '<circle cx="13.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="12" r="2.5"/><circle cx="17.5" cy="15.5" r="2.5"/><path d="M12 22a10 10 0 1 1 10-10c0 2-1.5 3-3 3h-2.5"/>',
+          'digital-marketing' => '<path d="M3 11l18-8-8 18-2-8z"/>',
+          'mobile-app-development' => '<rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/>',
+          'ai-business-automation' => '<rect x="5" y="8" width="14" height="11" rx="3"/><path d="M12 8V4M9 13h.01M15 13h.01M2 13h3M19 13h3"/>',
+          'software-quality-assurance' => '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>',
+          'pos-solutions' => '<rect x="4" y="3" width="16" height="12" rx="2"/><path d="M8 19h8M12 15v4M8 7h8M8 10h5"/>',
+        ];
+      @endphp
+      <div class="svc-grid">
+        @foreach (config('vintexora.services') as $svc)
+          <a class="svc-card reveal" href="{{ route('services.show', $svc['slug']) }}" data-tilt>
+            <div class="svc-top">
+              <span class="svc-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">{!! $svcIcons[$svc['slug']] ?? '' !!}</svg></span>
+              <span class="svc-tag">{{ $svc['tag'] ?? $svc['code'] }}</span>
+            </div>
+            <h3>{{ $svc['title'] }}</h3>
+            <p>{{ $svc['short'] }}</p>
+            <span class="svc-more">Learn more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        @endforeach
+      </div>
+      <div class="center-cta reveal">
+        <a href="{{ route('services.index') }}" class="btn btn-ghost">View all services</a>
+        <a href="#audit" class="btn btn-primary">Not sure? Get a free audit</a>
       </div>
     </div>
   </section>
@@ -226,21 +232,36 @@
   </section>
 
   <!-- ============ WHY US NUMBERS ============ -->
-  <div class="why-band">
-    <div class="wrap" style="padding:90px 28px 0;">
-      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+  <section class="section why-band">
+    <div class="wrap">
+      <div class="section-head center reveal">
         <div class="eyebrow">Why Ventixora</div>
         <h2>The full-stack advantage, in numbers</h2>
       </div>
+      <div class="bento">
+        <div class="bento-card big reveal" data-tilt>
+          <div class="why-num" data-count="0">0</div>
+          <h3>Vendors to coordinate</h3>
+          <p>Your website, store, POS, ads and IT sit with one team. When something breaks, there is one number to call — and nobody can blame the other agency.</p>
+        </div>
+        <div class="bento-card reveal" data-tilt>
+          <div class="why-num" data-count="9">0</div>
+          <h3>Service divisions</h3>
+          <p>Under a single contract and one monthly report.</p>
+        </div>
+        <div class="bento-card reveal" data-tilt>
+          <div class="why-num mono">VAT</div>
+          <h3>Compliant by default</h3>
+          <p>POS and billing that finance can close the month with.</p>
+        </div>
+        <div class="bento-card wide reveal" data-tilt>
+          <div class="why-num mono">Local-first</div>
+          <h3>Built for how your market buys</h3>
+          <p>Every campaign and build accounts for local search behaviour, payment habits and bilingual audiences across the UAE, USA, UK and Canada.</p>
+        </div>
+      </div>
     </div>
-    <div class="why-grid reveal">
-      <div class="why-item"><div class="why-num" data-count="0">0</div><p>Vendors to coordinate between — one team owns the whole stack</p></div>
-      <div class="why-item"><div class="why-num" data-count="9">0</div><p>Service divisions under a single contract</p></div>
-      <div class="why-item"><div class="why-num mono">VAT</div><p>Compliant POS and billing by default, every build</p></div>
-      <div class="why-item"><div class="why-num mono">UAE</div><p>First — every campaign and build accounts for local search behavior, payment habits, and bilingual audiences</p></div>
-    </div>
-    <div style="height:90px;"></div>
-  </div>
+  </section>
 
   <!-- ============ PROCESS ============ -->
   <section class="section" id="process">
@@ -282,23 +303,42 @@
   <!-- ============ COMPARISON ============ -->
   <section class="section" style="padding-top:0;">
     <div class="wrap">
-      <div class="section-head reveal">
+      <div class="section-head center reveal">
+        <div class="eyebrow">The difference</div>
         <h2>Ventixora vs. a typical freelancer or single-service vendor</h2>
       </div>
-      <div class="compare-wrap reveal">
-        <table>
-          <thead>
-            <tr><th></th><th class="hl">Ventixora</th><th>Freelancer / single vendor</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Website + marketing + POS</td><td class="hl">One team, one strategy</td><td>Three separate vendors, no coordination</td></tr>
-            <tr><td>VAT compliance</td><td class="hl">Built in by default</td><td>Often an afterthought</td></tr>
-            <tr><td>Response time</td><td class="hl">Dedicated support plan</td><td>"I'll get to it"</td></tr>
-            <tr><td>Reporting</td><td class="hl">Tied to leads/sales</td><td>Vanity metrics (likes, impressions)</td></tr>
-            <tr><td>Contracts</td><td class="hl">Monthly, no lock-in</td><td>Varies, often rigid</td></tr>
-            <tr><td>UAE market knowledge</td><td class="hl">Built into every build</td><td>Learned on your budget</td></tr>
-          </tbody>
-        </table>
+      @php
+        $compare = [
+          ['Website + marketing + POS', 'One team, one strategy', 'Three vendors, no coordination'],
+          ['VAT compliance', 'Built in by default', 'Often an afterthought'],
+          ['Response time', 'Dedicated support plan', '"I\'ll get to it"'],
+          ['Reporting', 'Tied to leads and sales', 'Likes and impressions'],
+          ['Contracts', 'Monthly, no lock-in', 'Varies, often rigid'],
+          ['Market knowledge', 'Built into every build', 'Learned on your budget'],
+        ];
+      @endphp
+      <div class="vs-grid">
+        <div class="vs-card win reveal">
+          <div class="vs-head">
+            <img src="{{ asset(config('seo.mark')) }}" alt="" width="28" height="28">
+            <b>Ventixora</b>
+            <span class="vs-badge">Recommended</span>
+          </div>
+          <ul>
+            @foreach ($compare as [$label, $us])
+              <li><span class="vs-ic yes">✓</span><div><small>{{ $label }}</small>{{ $us }}</div></li>
+            @endforeach
+          </ul>
+          <a href="#audit" class="btn btn-primary btn-block">Start with a free audit</a>
+        </div>
+        <div class="vs-card reveal">
+          <div class="vs-head"><b>Freelancer / single vendor</b></div>
+          <ul>
+            @foreach ($compare as [$label, , $them])
+              <li><span class="vs-ic no">✕</span><div><small>{{ $label }}</small>{{ $them }}</div></li>
+            @endforeach
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -390,25 +430,38 @@
   <!-- ============ LOCATIONS ============ -->
   <section class="section">
     <div class="wrap">
-      <div class="section-head reveal">
+      <div class="section-head center reveal">
+        <div class="eyebrow">Where we work</div>
         <h2>Serving the UAE, USA, UK and Canada</h2>
+        <p>Local tax, currency, payments and search behaviour in every brief — wherever your customers are.</p>
       </div>
-      <div class="loc-grid reveal">
-        <div class="loc-card"><h3>UAE</h3><p>Dubai, Abu Dhabi, Sharjah, Northern Emirates</p></div>
-        <div class="loc-card"><h3>USA</h3><p>English-first, cards, remote across states</p></div>
-        <div class="loc-card"><h3>UK</h3><p>London and UK-wide — VAT, GBP, UK search</p></div>
-        <div class="loc-card"><h3>CANADA</h3><p>Toronto to Vancouver — CAD, bilingual-ready</p></div>
+      <div class="loc-grid">
+        @foreach (config('seo.markets') as $m)
+          <a class="loc-card reveal" href="{{ route('markets') }}">
+            <span class="loc-code">{{ $m['code'] }}</span>
+            <h3>{{ $m['name'] }}</h3>
+            <p>{{ $m['cities'] }}</p>
+            <span class="serve-link">Explore {{ $m['short'] }} <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        @endforeach
       </div>
     </div>
   </section>
 
   <!-- ============ FAQ ============ -->
   <section class="section" id="faq" style="padding-top:0;">
-    <div class="wrap" style="max-width:820px;">
-      <div class="section-head reveal">
-        <h2>Frequently asked questions</h2>
+    <div class="wrap split">
+      <div class="split-aside reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2>Questions, answered</h2>
+        <p>Straight answers before you commit to anything.</p>
+        <div class="ask-card">
+          <b>Still have a question?</b>
+          <p>Send it with the audit form — a real person replies within 48 hours.</p>
+          <a href="#audit" class="btn btn-primary btn-block">Ask us directly</a>
+        </div>
       </div>
-      <div class="reveal">
+      <div class="faq-list reveal">
         <details class="faq-item" open>
           <summary>How long before I see results?</summary>
           <p>Website and ad-driven leads typically start within 2–4 weeks. SEO compounds over 3–6 months and becomes your lowest-cost channel long term.</p>
