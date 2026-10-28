@@ -202,6 +202,9 @@ section[id],div[id]{scroll-margin-top:90px;}
 footer{background:linear-gradient(180deg,var(--bg),#04050c);}
 .footer-brand img{width:34px;height:34px;}
 
+/* .section's vertical padding shorthand wipes .wrap's side gutter when both are on one element */
+.wrap.section{padding-left:28px;padding-right:28px;}
+
 /* ---------- Responsive ---------- */
 @media (max-width:1240px){
   .nav-status{display:none;}
@@ -232,6 +235,10 @@ footer{background:linear-gradient(180deg,var(--bg),#04050c);}
 }
 @media (max-width:680px){
   .wrap{padding:0 18px;}
+  .wrap.section{padding-left:18px;padding-right:18px;}
+  .trust-row{gap:8px 0;}
+  .trust-item:not(:last-child)::after{display:none;}
+  .audit-form{padding:24px 18px;}
   .hero h1{font-size:clamp(28px,8vw,38px);}
   .hero-sub{font-size:16px;}
   .hero-ctas{flex-direction:column;}

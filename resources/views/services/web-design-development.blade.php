@@ -70,7 +70,7 @@
         <p>A website built without strategy is just a digital brochure nobody reads. A website built around how your customers actually search, browse, and decide is a sales tool that works 24 hours a day.</p>
       </div>
       <div class="decay-diagram reveal">
-        <svg viewBox="0 0 380 200" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="-24 0 428 200" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="decayGrad" x1="0" y1="0" x2="1" y2="0">
               <stop offset="0%" stop-color="#8b6bff"/>
