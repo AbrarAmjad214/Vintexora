@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Software Quality Assurance in the UAE | Testing & QA | Vintexora')
-@section('description', 'Manual testing, automation testing, functional, performance, regression, cross-browser, load and stress testing, bug tracking and QA consulting for UAE digital products.')
+@section('title', 'Software Quality Assurance | Testing & QA — UAE, USA, UK, Canada | Vintexora')
+@section('description', 'Manual, automation, performance, regression, cross-browser, load and stress testing for digital products in the UAE, USA, UK and Canada. Launch is a gate.')
 
 @section('content')
 <main class="pg-qa" id="top">

@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'VAT-Compliant POS Solutions in the UAE | Retail, F&B, Pharmacy | Vintexora')
-@section('description', 'Custom POS, retail, restaurant, pharmacy, grocery, salon and multi-store POS with VAT, inventory, KDS, loyalty, hardware and accounting integration in the UAE.')
+@section('title', 'POS Solutions | UAE VAT, USA, UK & Canada | Vintexora')
+@section('description', 'Retail, restaurant, pharmacy and multi-store POS with tax-ready invoices, inventory, KDS, loyalty and accounting for operators in the UAE, USA, UK and Canada.')
 
 @section('content')
 <main class="pg-pos" id="top">

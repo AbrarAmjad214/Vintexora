@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Mobile App Design & Development in the UAE | Flutter, iOS, Android | Vintexora')
-@section('description', 'Flutter development, Android apps, iOS apps, UI design, UX design and app prototyping for UAE customer apps and internal tools.')
+@section('title', 'Mobile App Development | Flutter, iOS, Android — UAE, USA, UK, Canada | Vintexora')
+@section('description', 'Flutter, iOS and Android app design, UX and prototyping for customer apps and internal tools in the UAE, USA, UK and Canada.')
 
 @section('content')
 <main class="pg-app" id="top">

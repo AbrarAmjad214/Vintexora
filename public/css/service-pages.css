@@ -416,7 +416,7 @@
     radial-gradient(ellipse 800px 480px at 80% -10%, rgba(139,107,255,0.16), transparent 55%),
     radial-gradient(ellipse 500px 360px at 5% 90%, rgba(63,208,255,0.10), transparent 55%);
 }
-.about-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px;}
+.about-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:8px;}
 .about-stat{
   background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 18px;
 }

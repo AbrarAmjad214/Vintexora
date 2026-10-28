@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Hosting, Maintenance & IT Support in the UAE | Vintexora')
-@section('description', 'Web hosting, cloud and server management, Microsoft 365, website maintenance, monitoring, backups, security updates and performance optimization for UAE businesses.')
+@section('title', 'Hosting, Maintenance & IT Support | UAE, USA, UK & Canada | Vintexora')
+@section('description', 'Web hosting, cloud, Microsoft 365, backups, monitoring and security updates for businesses in the UAE, USA, UK and Canada — restores that have been drilled.')
 
 @section('content')
 <main class="pg-host" id="top">

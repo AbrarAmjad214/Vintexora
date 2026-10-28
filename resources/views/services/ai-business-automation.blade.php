@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'AI & Business Automation in the UAE | Chatbots, CRM, Workflows | Vintexora')
-@section('description', 'AI chatbots, workflow automation, CRM automation, business automation and AI integrations for UAE teams that want fewer manual hours, not more dashboards.')
+@section('title', 'AI & Business Automation | UAE, USA, UK & Canada | Vintexora')
+@section('description', 'AI chatbots, workflow automation, CRM automation and AI integrations for teams in the UAE, USA, UK and Canada — fewer manual hours, grounded answers, no invented prices.')
 
 @section('content')
 <main class="pg-ai" id="top">

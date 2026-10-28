@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'About Vintexora | UAE Digital Growth Agency')
-@section('description', 'Vintexora is a UAE digital growth agency: websites, e-commerce, POS, marketing, apps, AI automation and QA — one team for how businesses actually sell in the Emirates.')
+@section('title', 'About Vintexora | Digital Agency — UAE, USA, UK & Canada')
+@section('description', 'Vintexora is a digital growth agency for the UAE, USA, UK and Canada: websites, e-commerce, POS, marketing, apps, AI automation and QA — one team, no lock-in.')
 
 @section('content')
 <main class="pg-about" id="top">
@@ -88,13 +88,13 @@
     <div class="wrap">
       <div class="section-head reveal">
         <div class="eyebrow">Where</div>
-        <h2>Serving businesses across the UAE</h2>
+        <h2>Serving the UAE, USA, UK and Canada</h2>
       </div>
       <div class="card-grid" style="grid-template-columns:repeat(4,1fr);">
-        <div class="feat-card reveal"><h3>Dubai</h3><p>Downtown, Business Bay, JLT, Deira, Marina.</p></div>
-        <div class="feat-card reveal"><h3>Abu Dhabi</h3><p>Corniche, Khalifa City, Al Reem Island.</p></div>
-        <div class="feat-card reveal"><h3>Sharjah</h3><p>Al Majaz, Al Khan, Muwaileh.</p></div>
-        <div class="feat-card reveal"><h3>Northern Emirates</h3><p>Ajman, RAK, Fujairah, UAQ — remote-first, we come to you.</p></div>
+        <div class="feat-card reveal"><h3>UAE</h3><p>Dubai, Abu Dhabi, Sharjah, Northern Emirates.</p></div>
+        <div class="feat-card reveal"><h3>USA</h3><p>English-first, cards, remote across states.</p></div>
+        <div class="feat-card reveal"><h3>UK</h3><p>London and UK-wide — VAT, GBP, UK search.</p></div>
+        <div class="feat-card reveal"><h3>Canada</h3><p>Toronto to Vancouver — CAD, bilingual-ready.</p></div>
       </div>
     </div>
   </section>

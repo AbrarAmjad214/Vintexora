@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Branding & Visual Identity in the UAE | Vintexora')
-@section('description', 'Brand strategy, logo design, corporate identity, brand guidelines, company profiles, presentation design and graphic design for UAE companies.')
+@section('title', 'Branding & Visual Identity | UAE, USA, UK & Canada | Vintexora')
+@section('description', 'Brand strategy, logo, identity, guidelines, company profiles and decks for firms in the UAE, USA, UK and Canada — marks that survive web, ads and print.')
 
 @section('content')
 <main class="pg-brand" id="top">

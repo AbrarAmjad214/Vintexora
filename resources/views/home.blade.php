@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title')Vintexora — UAE Digital Growth Agency | Web, Marketing, POS &amp; AI Automation@endsection
-@section('description')Vintexora builds websites, e-commerce stores, POS systems, and runs SEO, ads &amp; AI automation for UAE businesses. Free growth audit. Based in the UAE.@endsection
+@section('title', 'Vintexora | Digital Growth Agency — UAE, USA, UK & Canada')
+@section('description', 'Vintexora builds websites, e-commerce, POS, SEO, ads, apps and AI automation for businesses in the UAE, USA, United Kingdom and Canada. Free growth audit.')
 
 @section('content')
 
@@ -12,9 +12,9 @@
     <div class="hero-grid"></div>
     <div class="wrap hero-inner">
       <div>
-        <div class="eyebrow">Digital Growth Agency · UAE</div>
+        <div class="eyebrow">Digital Growth Agency · UAE · USA · UK · Canada</div>
         <h1>Your website, your store, your POS, your marketing — one team, one number that matters: <span class="grad-text">revenue.</span></h1>
-        <p class="hero-sub">From Deira to Downtown Dubai to the Abu Dhabi Corniche — we build and run the systems UAE businesses actually run on: websites, online stores, POS, and the marketing that fills them with customers.</p>
+        <p class="hero-sub">We build and run the systems businesses in the UAE, USA, UK and Canada actually run on: websites, online stores, POS, and the marketing that fills them with customers — from Dubai and Abu Dhabi to London, New York and Toronto.</p>
         <div class="hero-ctas">
           <a href="#audit" class="btn btn-primary">Get My Free Growth Audit</a>
           <a href="#engines" class="btn btn-ghost">See How It Works</a>
@@ -26,7 +26,7 @@
           </div>
           <div>
             <div class="hero-stat-num" data-count="100" data-suffix="%">0%</div>
-            <div class="hero-stat-label">UAE-market<br>focused</div>
+            <div class="hero-stat-label">UAE · USA<br>UK · Canada</div>
           </div>
           <div>
             <div class="hero-stat-num mono">VAT</div>
@@ -330,13 +330,13 @@
   <section class="section">
     <div class="wrap">
       <div class="section-head reveal">
-        <h2>Serving businesses across the UAE</h2>
+        <h2>Serving the UAE, USA, UK and Canada</h2>
       </div>
       <div class="loc-grid reveal">
-        <div class="loc-card"><h3>DUBAI</h3><p>Downtown, Business Bay, JLT, Deira, Marina</p></div>
-        <div class="loc-card"><h3>ABU DHABI</h3><p>Corniche, Khalifa City, Al Reem Island</p></div>
-        <div class="loc-card"><h3>SHARJAH</h3><p>Al Majaz, Al Khan, Muwaileh</p></div>
-        <div class="loc-card"><h3>AJMAN · RAK · FUJAIRAH · UAQ</h3><p>Remote-first, we come to you</p></div>
+        <div class="loc-card"><h3>UAE</h3><p>Dubai, Abu Dhabi, Sharjah, Northern Emirates</p></div>
+        <div class="loc-card"><h3>USA</h3><p>English-first, cards, remote across states</p></div>
+        <div class="loc-card"><h3>UK</h3><p>London and UK-wide — VAT, GBP, UK search</p></div>
+        <div class="loc-card"><h3>CANADA</h3><p>Toronto to Vancouver — CAD, bilingual-ready</p></div>
       </div>
     </div>
   </section>
@@ -380,6 +380,10 @@
           <p>Yes — monthly IT support, maintenance, and monitoring plans are available for every service line.</p>
         </details>
         <details class="faq-item">
+          <summary>Do you work outside the UAE?</summary>
+          <p>Yes. Vintexora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.</p>
+        </details>
+        <details class="faq-item">
           <summary>Are there long-term contracts?</summary>
           <p>No lock-in contracts. We work month to month and earn renewal through results.</p>
         </details>
@@ -388,5 +392,21 @@
   </section>
 
 </main>
+
+@push('schema')
+@php
+  $faq = [
+    '@context' => 'https://schema.org',
+    '@type' => 'FAQPage',
+    'mainEntity' => [
+      ['@type' => 'Question', 'name' => 'How long before I see results?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Website and ad-driven leads typically start within 2–4 weeks. SEO compounds over 3–6 months and becomes your lowest-cost channel long term.']],
+      ['@type' => 'Question', 'name' => 'Do I need all services, or can I start with one?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Start with whatever your business needs most — a website, a POS system, or a marketing engine. Most clients add services as growth demands it.']],
+      ['@type' => 'Question', 'name' => 'Do you work outside the UAE?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Vintexora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.']],
+      ['@type' => 'Question', 'name' => 'Are there long-term contracts?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'No lock-in contracts. We work month to month and earn renewal through results.']],
+    ],
+  ];
+@endphp
+<script type="application/ld+json">{!! json_encode($faq, JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE) !!}</script>
+@endpush
 
 @endsection

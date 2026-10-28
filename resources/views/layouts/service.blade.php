@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<title>@yield('title')</title>
-<meta name="description" content="@yield('description')">
+@include('partials.seo-head')
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -23,5 +21,6 @@
 <script src="{{ asset('js/web-design.js') }}"></script>
 <script src="{{ asset('js/motion.js') }}"></script>
 <script src="{{ asset('js/site.js') }}"></script>
+@include('partials.seo-schema')
 </body>
 </html>

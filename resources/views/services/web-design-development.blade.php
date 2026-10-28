@@ -1,7 +1,7 @@
 @extends('layouts.web-design')
 
-@section('title', 'Web Design & Development in the UAE | Vintexora')
-@section('description', 'Custom business websites, corporate sites, landing pages & WordPress development for UAE businesses. Fast, mobile-first, conversion-focused. Get a free website audit.')
+@section('title', 'Web Design & Development | UAE, USA, UK & Canada | Vintexora')
+@section('description', 'Custom business websites, corporate sites, landing pages and WordPress for companies in the UAE, USA, UK and Canada. Mobile-first, conversion-focused. Free website audit.')
 
 @section('content')
 

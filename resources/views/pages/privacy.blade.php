@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
 @section('title', 'Privacy Policy | Vintexora')
-@section('description', 'How Vintexora collects, uses and stores enquiry data for UAE clients. PDPL-minded practice, no sale of personal data, contact details for requests.')
+@section('description', 'How Vintexora collects and uses enquiry data for clients in the UAE, USA, UK and Canada. PDPL-minded practice, no sale of personal data.')
 
 @section('content')
 <main class="pg-legal" id="top">

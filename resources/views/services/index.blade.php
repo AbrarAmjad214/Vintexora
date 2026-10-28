@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title')Vintexora Services in the UAE | Web, E-Commerce, POS, Marketing &amp; AI@endsection
-@section('description')Explore Vintexora’s UAE service stack: web design, e-commerce, hosting, branding, digital marketing, mobile apps, AI automation, QA and VAT-compliant POS.@endsection
+@section('title', 'Vintexora Services | Web, E-Commerce, POS, Marketing — UAE, USA, UK, Canada')
+@section('description', 'Explore Vintexora services for the UAE, USA, UK and Canada: web design, e-commerce, hosting, branding, digital marketing, apps, AI automation, QA and POS.')
 
 @section('content')
 <main class="sp">

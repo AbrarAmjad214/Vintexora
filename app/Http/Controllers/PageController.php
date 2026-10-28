@@ -25,4 +25,12 @@ class PageController extends Controller
     {
         return view('pages.privacy');
     }
+
+    public function markets(): View
+    {
+        return view('pages.markets', [
+            'markets' => config('seo.markets'),
+            'services' => config('vintexora.services'),
+        ]);
+    }
 }

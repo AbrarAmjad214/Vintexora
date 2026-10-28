@@ -18,6 +18,7 @@
       </div>
       <a href="{{ url('/#engines') }}">How We Work</a>
       <a href="{{ url('/#pricing') }}">Packages</a>
+      <a href="{{ route('markets') }}" class="{{ request()->routeIs('markets') ? 'is-on' : '' }}">Markets</a>
       <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'is-on' : '' }}">About</a>
       <a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'is-on' : '' }}">Contact</a>
     </div>

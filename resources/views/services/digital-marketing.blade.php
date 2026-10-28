@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Digital Marketing in the UAE | SEO, Google Ads, Meta Ads | Vintexora')
-@section('description', 'SEO, local SEO, technical and ecommerce SEO, Google Ads, Meta Ads, social, content, email, LinkedIn, video, reputation and marketing automation for UAE brands.')
+@section('title', 'Digital Marketing | SEO, Google Ads, Meta Ads — UAE, USA, UK, Canada | Vintexora')
+@section('description', 'SEO, local SEO, Google Ads, Meta Ads, social, content and marketing automation for brands in the UAE, USA, UK and Canada — one scoreboard, not orphaned retainers.')
 
 @section('content')
 <main class="pg-mkt" id="top">

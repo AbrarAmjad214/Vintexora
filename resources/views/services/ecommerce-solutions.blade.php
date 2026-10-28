@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'E-Commerce Solutions in the UAE | Shopify, WooCommerce & B2B | Vintexora')
-@section('description', 'Shopify development, WooCommerce, payment gateways, catalog setup, conversion optimization, subscriptions and B2B commerce for UAE stores.')
+@section('title', 'E-Commerce Solutions | UAE, USA, UK & Canada | Vintexora')
+@section('description', 'Shopify, WooCommerce, payment gateways, catalogues, conversion and B2B commerce for stores in the UAE, USA, UK and Canada — local tax, delivery and checkout.')
 
 @section('content')
 <main class="pg-ecom" id="top">
