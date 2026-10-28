@@ -43,6 +43,16 @@
     });
   }
 
+  // Label each table cell with its column heading so tables can stack as cards on phones
+  document.querySelectorAll('.compare-wrap table').forEach((table) => {
+    const heads = [...table.querySelectorAll('thead th')].map((th) => th.textContent.trim());
+    table.querySelectorAll('tbody tr').forEach((tr) => {
+      [...tr.children].forEach((td, i) => {
+        if (heads[i]) td.setAttribute('data-label', heads[i]);
+      });
+    });
+  });
+
   // Sticky CTA dock: show after the hero, hide while the form is on screen
   const dock = document.getElementById('ctaDock');
   if (dock) {

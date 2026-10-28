@@ -43,7 +43,7 @@
         <h2>Local defaults. Same engineering discipline.</h2>
         <p>Search, checkout and tax are not the same in Dubai, Dallas, London and Toronto. We do not paste a US plugin default onto a UAE store — or a Gulf WhatsApp flow onto a UK clinic — without saying so.</p>
       </div>
-      <div class="div-grid reveal" style="grid-template-columns:repeat(2,1fr);">
+      <div class="div-grid cols-2 reveal">
         @foreach ($markets as $market)
           <article class="div-card">
             <small>{{ $market['code'] }} · {{ $market['hreflang'] }}</small>

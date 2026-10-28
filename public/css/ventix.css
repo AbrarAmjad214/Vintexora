@@ -394,6 +394,13 @@ footer{background:linear-gradient(180deg,var(--bg),#04050c);}
 .ask-card b{display:block;font-family:'Chakra Petch',sans-serif;font-size:18px;margin-bottom:6px;}
 .ask-card p{font-size:14px;color:var(--muted);margin-bottom:16px;}
 
+.menu-cta{display:none !important;}
+body.nav-open .cta-dock{opacity:0;pointer-events:none;}
+
+/* Column modifiers used instead of inline grid styles (inline styles beat media queries) */
+.card-grid.cols-4{grid-template-columns:repeat(4,1fr);}
+.div-grid.cols-2{grid-template-columns:repeat(2,1fr);}
+
 /* .section's vertical padding shorthand wipes .wrap's side gutter when both are on one element */
 .wrap.section{padding-left:28px;padding-right:28px;}
 
@@ -420,6 +427,16 @@ footer{background:linear-gradient(180deg,var(--bg),#04050c);}
   .story-panel{padding:30px 24px;gap:24px;}
   .bento{grid-template-columns:repeat(2,1fr);}
   .bento-card.big{grid-row:auto;grid-column:span 2;}
+  .card-grid.cols-4{grid-template-columns:repeat(2,1fr);}
+  .div-grid.cols-2{grid-template-columns:1fr;}
+  .step-flow{grid-template-columns:repeat(2,1fr);}
+  .step-flow .step:last-child{grid-column:span 2;}
+
+  /* Mobile menu: bigger, clearly separated tap targets */
+  .nav-links a,.mobile-services a{display:block;padding:11px 4px;font-size:15px;}
+  .nav-links > a{border-bottom:1px solid rgba(255,255,255,0.06);}
+  .nav-links{background:rgba(12,13,40,0.98) !important;}
+  .nav-links .menu-cta{display:flex !important;justify-content:center;margin-top:14px;padding:14px 20px;color:#050510;font-size:14px;border:0;}
   .bento-card.big .why-num{font-size:90px;}
   .story-visual{transform:none;}
 
@@ -458,6 +475,41 @@ footer{background:linear-gradient(180deg,var(--bg),#04050c);}
   .bento-card.big .why-num{font-size:84px;}
   .center-cta .btn{width:100%;justify-content:center;}
   .pill{font-size:12px;padding:8px 13px;}
+  .card-grid.cols-4{grid-template-columns:1fr;}
+  .layout-brand .mag,.layout-app .device-wrap,.bb-row{grid-template-columns:1fr;}
+
+  /* Process steps become compact rows: number left, text right */
+  .step-flow{grid-template-columns:1fr;gap:10px;}
+  .step-flow .step:last-child{grid-column:auto;}
+  .step{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:start;padding:16px;}
+  .step .n{grid-row:span 2;margin:0;}
+  .step h3{margin:2px 0 4px;}
+
+  /* Tables turn into stacked cards (labels added by ventix.js) */
+  .compare-wrap{overflow:visible !important;border:0 !important;background:none !important;box-shadow:none !important;}
+  .compare-wrap table{min-width:0 !important;display:block;}
+  .compare-wrap thead{display:none;}
+  .compare-wrap tbody{display:flex;flex-direction:column;gap:12px;}
+  .compare-wrap tr{
+    display:block;border-radius:14px;padding:14px 16px;
+    background:linear-gradient(165deg,rgba(35,41,110,0.62),rgba(20,24,66,0.55));border:1px solid rgba(255,255,255,0.12);
+  }
+  .compare-wrap td{display:block;padding:6px 0 !important;border:0 !important;font-size:14px !important;background:none !important;}
+  .compare-wrap td:first-child{font-family:'Chakra Petch',sans-serif;font-size:16px !important;color:var(--text);padding-bottom:8px !important;border-bottom:1px solid rgba(255,255,255,0.08) !important;margin-bottom:4px;}
+  .compare-wrap td[data-label]:not(:first-child)::before{
+    content:attr(data-label);display:block;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.08em;
+    text-transform:uppercase;color:var(--muted-2);margin-bottom:2px;
+  }
+  .compare-wrap td.hl{color:var(--cyan-soft) !important;}
+
+  /* Comfortable reading and tapping on phones */
+  .field input,.field select,.field textarea{font-size:16px !important;}
+  .breadcrumb a{display:inline-block;padding:10px 0;}
+  .footer-col a,.footer-col li a{display:inline-block;padding:7px 0;}
+  .svc-tag,.vs-badge,.price-badge,.h3d-card small,.story-kicker,.eyebrow{font-size:12px;}
+  .vs-card li small,.bubble,.service-id{font-size:12px;}
+  .section-head h2,.split-aside h2{font-size:clamp(25px,7vw,32px);}
+  .section-head p{font-size:15px;}
   .compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;}
   .compare-wrap table{min-width:560px;}
   .trust-item{padding:0 12px;font-size:11.5px;}

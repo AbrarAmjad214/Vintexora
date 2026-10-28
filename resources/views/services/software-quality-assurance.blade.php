@@ -121,7 +121,7 @@
         <div class="eyebrow">Staffing the window</div>
         <h2>We size to the blast radius — not a federal audit you did not ask for</h2>
       </div>
-      <div class="card-grid cols-5 reveal" style="grid-template-columns:repeat(4,1fr);">
+      <div class="card-grid cols-4 reveal">
         <div class="feat-card"><h3>Brochure site</h3><p>Functional pass, mobile pass, monitoring hook.</p></div>
         <div class="feat-card"><h3>Lead-gen campaign</h3><p>Form, thank-you, CRM field, in-app browser.</p></div>
         <div class="feat-card"><h3>Checkout</h3><p>Payment failures, VAT, Arabic, load test if you bought traffic.</p></div>

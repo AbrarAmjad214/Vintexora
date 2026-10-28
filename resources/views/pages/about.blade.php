@@ -90,7 +90,7 @@
         <div class="eyebrow">Where</div>
         <h2>Serving the UAE, USA, UK and Canada</h2>
       </div>
-      <div class="card-grid" style="grid-template-columns:repeat(4,1fr);">
+      <div class="card-grid cols-4">
         <div class="feat-card reveal"><h3>UAE</h3><p>Dubai, Abu Dhabi, Sharjah, Northern Emirates.</p></div>
         <div class="feat-card reveal"><h3>USA</h3><p>English-first, cards, remote across states.</p></div>
         <div class="feat-card reveal"><h3>UK</h3><p>London and UK-wide — VAT, GBP, UK search.</p></div>
