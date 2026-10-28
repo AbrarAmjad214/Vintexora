@@ -1,6 +1,6 @@
 @extends('layouts.web-design')
 
-@section('title', 'Web Design & Development | UAE, USA, UK & Canada | Vintexora')
+@section('title', 'Web Design & Development | UAE, USA, UK & Canada | Ventixora')
 @section('description', 'Custom business websites, corporate sites, landing pages and WordPress for companies in the UAE, USA, UK and Canada. Mobile-first, conversion-focused. Free website audit.')
 
 @section('content')
@@ -13,7 +13,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">Web Design &amp; Development</span>
         </div>
@@ -172,11 +172,11 @@
     </div>
   </section>
 
-  <!-- ============ WHY VINTEXORA ============ -->
+  <!-- ============ WHY VENTIXORA ============ -->
   <section class="section" style="padding-top:0;">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why UAE businesses choose Vintexora</div>
+        <div class="eyebrow">Why UAE businesses choose Ventixora</div>
         <h2>Built for how the UAE actually browses and buys</h2>
       </div>
       <div class="why-list reveal">
@@ -209,7 +209,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Custom Build (Vintexora)</th><th>Generic Template</th></tr>
+            <tr><th></th><th class="hl">Custom Build (Ventixora)</th><th>Generic Template</th></tr>
           </thead>
           <tbody>
             <tr><td>Design</td><td class="hl">Built around your brand and users</td><td>Recycled theme, edited slightly</td></tr>

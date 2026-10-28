@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Contact Vintexora | Free Growth Audit — UAE, USA, UK, Canada')
-@section('description', 'Request a free Vintexora growth audit. Website, store, POS, ads or automation for teams in the UAE, USA, UK and Canada — reply within 48 hours.')
+@section('title', 'Contact Ventixora | Free Growth Audit — UAE, USA, UK, Canada')
+@section('description', 'Request a free Ventixora growth audit. Website, store, POS, ads or automation for teams in the UAE, USA, UK and Canada — reply within 48 hours.')
 
 @section('content')
 <main class="pg-contact" id="top">
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner" style="grid-template-columns:1fr;">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <span class="current">Contact</span>
         </div>
         <div class="eyebrow">Contact · UAE</div>

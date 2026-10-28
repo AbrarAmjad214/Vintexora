@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Vintexora | Digital Growth Agency — UAE, USA, UK & Canada')
-@section('description', 'Vintexora builds websites, e-commerce, POS, SEO, ads, apps and AI automation for businesses in the UAE, USA, United Kingdom and Canada. Free growth audit.')
+@section('title', 'Ventixora | Digital Growth Agency — UAE, USA, UK & Canada')
+@section('description', 'Ventixora builds websites, e-commerce, POS, SEO, ads, apps and AI automation for businesses in the UAE, USA, United Kingdom and Canada. Free growth audit.')
 
 @section('content')
 
@@ -11,34 +11,72 @@
   <section class="hero">
     <div class="hero-grid"></div>
     <div class="wrap hero-inner">
-      <div>
+      <div class="hero-copy">
         <div class="eyebrow">Digital Growth Agency · UAE · USA · UK · Canada</div>
-        <h1>Your website, your store, your POS, your marketing — one team, one number that matters: <span class="grad-text">revenue.</span></h1>
-        <p class="hero-sub">We build and run the systems businesses in the UAE, USA, UK and Canada actually run on: websites, online stores, POS, and the marketing that fills them with customers — from Dubai and Abu Dhabi to London, New York and Toronto.</p>
+        <h1>One team for your website, store, POS &amp; marketing — <span class="grad-text">accountable for revenue.</span></h1>
+        <p class="hero-sub">Ventixora builds and runs the systems your business sells through, then fills them with customers. No juggling five vendors, no vanity reports.</p>
         <div class="hero-ctas">
-          <a href="#audit" class="btn btn-primary">Get My Free Growth Audit</a>
-          <a href="#engines" class="btn btn-ghost">See How It Works</a>
+          <a href="#audit" class="btn btn-primary btn-lg">Get My Free Growth Audit
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#services" class="btn btn-ghost btn-lg">Explore Services</a>
         </div>
+        <ul class="hero-assure">
+          <li>Free &amp; no obligation</li>
+          <li>Reply within 48 hours</li>
+          <li>Monthly, no lock-in</li>
+        </ul>
         <div class="hero-stats">
           <div>
-            <div class="hero-stat-num" data-count="8">0</div>
+            <div class="hero-stat-num" data-count="9">0</div>
             <div class="hero-stat-label">Service divisions<br>under one roof</div>
           </div>
           <div>
-            <div class="hero-stat-num" data-count="100" data-suffix="%">0%</div>
-            <div class="hero-stat-label">UAE · USA<br>UK · Canada</div>
+            <div class="hero-stat-num" data-count="4">0</div>
+            <div class="hero-stat-label">Markets: UAE, USA,<br>UK &amp; Canada</div>
           </div>
           <div>
-            <div class="hero-stat-num mono">VAT</div>
-            <div class="hero-stat-label">Compliant<br>by default</div>
+            <div class="hero-stat-num" data-count="48" data-suffix="h">0h</div>
+            <div class="hero-stat-label">Free audit<br>turnaround</div>
           </div>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-visual-glow"></div>
-        <div class="hero-visual-ring r1"></div>
-        <div class="hero-visual-ring r2"></div>
-        <img src="{{ asset('images/brand-7ee39eaf42.png') }}" alt="Vintexora VTX mark">
+      <div class="hero3d" data-scene aria-hidden="true">
+        <div class="h3d-stage">
+          <div class="h3d-floor"></div>
+          <div class="h3d-orbit o1"></div>
+          <div class="h3d-orbit o2"></div>
+          <div class="h3d-core">
+            <div class="h3d-cube">
+              <span class="f front"><img src="{{ asset(config('seo.mark')) }}" alt=""></span>
+              <span class="f back"></span>
+              <span class="f right"></span>
+              <span class="f left"></span>
+              <span class="f top"></span>
+              <span class="f bottom"></span>
+            </div>
+          </div>
+          <div class="h3d-card c1">
+            <small>WEBSITE</small>
+            <b>Fast, mobile-first</b>
+            <i class="bar"><em style="width:92%"></em></i>
+          </div>
+          <div class="h3d-card c2">
+            <small>ADS &amp; SEO</small>
+            <b>Leads → CRM</b>
+            <span class="spark"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          </div>
+          <div class="h3d-card c3">
+            <small>POS</small>
+            <b>VAT-ready tills</b>
+            <span class="ok">● Synced with store</span>
+          </div>
+          <div class="h3d-card c4">
+            <small>AUTOMATION</small>
+            <b>WhatsApp replies</b>
+            <span class="ok">● Always on</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -46,11 +84,11 @@
   <!-- ============ TRUST BAR ============ -->
   <div class="trust">
     <div class="wrap trust-row">
-      <span class="trust-item">Google Partner</span>
-      <span class="trust-item">Meta Business Partner</span>
-      <span class="trust-item">WordPress &amp; Shopify Certified</span>
-      <span class="trust-item">Based in the UAE</span>
-      <span class="trust-item">No Long-Term Lock-In Contracts</span>
+      <span class="trust-item">One accountable team</span>
+      <span class="trust-item">VAT-ready builds</span>
+      <span class="trust-item">Reporting tied to leads &amp; sales</span>
+      <span class="trust-item">UAE · USA · UK · Canada</span>
+      <span class="trust-item">No long-term lock-in</span>
     </div>
   </div>
 
@@ -131,9 +169,9 @@
   <section class="section" id="engines">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">How we grow your business · scroll the stages</div>
+        <div class="eyebrow">How we grow your business</div>
         <h2>Three engines. Each one a live system — not a slide.</h2>
-        <p>Scroll: the next stage pins over the last, the way Glowth-style landings walk a service one chapter at a time.</p>
+        <p>Build the place customers buy, bring the right people to it, and keep the back end running when it gets busy.</p>
       </div>
       <div class="story-stage">
         <article class="story-panel">
@@ -191,17 +229,16 @@
   <div class="why-band">
     <div class="wrap" style="padding:90px 28px 0;">
       <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>The full-stack advantage, in numbers</h2>
       </div>
     </div>
     <div class="why-grid reveal">
       <div class="why-item"><div class="why-num" data-count="0">0</div><p>Vendors to coordinate between — one team owns the whole stack</p></div>
-      <div class="why-item"><div class="why-num" data-count="8">0</div><p>Service divisions under a single contract</p></div>
+      <div class="why-item"><div class="why-num" data-count="9">0</div><p>Service divisions under a single contract</p></div>
       <div class="why-item"><div class="why-num mono">VAT</div><p>Compliant POS and billing by default, every build</p></div>
       <div class="why-item"><div class="why-num mono">UAE</div><p>First — every campaign and build accounts for local search behavior, payment habits, and bilingual audiences</p></div>
     </div>
-    <p class="why-note">Note — once live, replace with your actual client results: average booking/lead growth, ROAS, retention rate, etc.</p>
     <div style="height:90px;"></div>
   </div>
 
@@ -209,7 +246,7 @@
   <section class="section" id="process">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">The Vintexora method</div>
+        <div class="eyebrow">The Ventixora method</div>
         <h2>From audit to fully operational, in five steps</h2>
       </div>
       <div class="step-flow">
@@ -246,12 +283,12 @@
   <section class="section" style="padding-top:0;">
     <div class="wrap">
       <div class="section-head reveal">
-        <h2>Vintexora vs. a typical freelancer or single-service vendor</h2>
+        <h2>Ventixora vs. a typical freelancer or single-service vendor</h2>
       </div>
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora</th><th>Freelancer / single vendor</th></tr>
+            <tr><th></th><th class="hl">Ventixora</th><th>Freelancer / single vendor</th></tr>
           </thead>
           <tbody>
             <tr><td>Website + marketing + POS</td><td class="hl">One team, one strategy</td><td>Three separate vendors, no coordination</td></tr>
@@ -266,18 +303,42 @@
     </div>
   </section>
 
-  <!-- ============ RESULTS ============ -->
+  <!-- ============ FREE AUDIT CONTENTS ============ -->
   <section class="section" id="results" style="padding-top:0;">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Client results</div>
-        <h2>Growth we can point to</h2>
-        <p>Structure shown below — populate with real client data before publishing; do not publish placeholder numbers as fact.</p>
+        <div class="eyebrow">Your free growth audit</div>
+        <h2>What you get in 48 hours — free</h2>
+        <p>A short, prioritized fix list from the team that would do the work. Keep it, act on it yourself, or hand it to us.</p>
       </div>
-      <div class="results-grid reveal">
-        <div class="result-card"><span class="placeholder-tag">PLACEHOLDER</span><div class="result-client">[Client Name] · [Industry] · [Emirate]</div><div class="result-metric">[+X% online orders]</div><p class="result-desc">[One-line description of what was built: website + SEO + POS integration, etc.]</p></div>
-        <div class="result-card"><span class="placeholder-tag">PLACEHOLDER</span><div class="result-client">[Client Name] · [Industry] · [Emirate]</div><div class="result-metric">[Metric]</div><p class="result-desc">[Description]</p></div>
-        <div class="result-card"><span class="placeholder-tag">PLACEHOLDER</span><div class="result-client">[Client Name] · [Industry] · [Emirate]</div><div class="result-metric">[Metric]</div><p class="result-desc">[Description]</p></div>
+      <div class="audit3d-grid">
+        <article class="audit3d reveal" data-tilt>
+          <div class="a3-num">01</div>
+          <div class="a3-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+          <h3>Website &amp; conversion</h3>
+          <p>Speed, mobile layout, and the exact spots where visitors drop before they call or buy.</p>
+        </article>
+        <article class="audit3d reveal" data-tilt>
+          <div class="a3-num">02</div>
+          <div class="a3-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div>
+          <h3>Search &amp; ads visibility</h3>
+          <p>Where you rank against your top three local competitors, and where ad spend is leaking.</p>
+        </article>
+        <article class="audit3d reveal" data-tilt>
+          <div class="a3-num">03</div>
+          <div class="a3-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
+          <h3>Store, POS &amp; operations</h3>
+          <p>Stock sync, VAT on the invoice, and the manual steps slowing your team down.</p>
+        </article>
+        <article class="audit3d reveal" data-tilt>
+          <div class="a3-num">04</div>
+          <div class="a3-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Automation quick wins</h3>
+          <p>Enquiries, follow-ups and reports that can run themselves — with hours saved per week.</p>
+        </article>
+      </div>
+      <div class="center-cta reveal">
+        <a href="#audit" class="btn btn-primary btn-lg">Claim My Free Audit</a>
       </div>
     </div>
   </section>
@@ -288,7 +349,7 @@
       <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
         <div class="eyebrow">Packages</div>
         <h2>Start where your business is today</h2>
-        <p>Pricing shown as tiers, not fixed AED numbers, since scope varies by service mix.</p>
+        <p>Every package is scoped after your free audit, so you get a fixed quote before any work starts.</p>
       </div>
       <div class="pricing-grid reveal">
         <div class="price-card">
@@ -341,21 +402,6 @@
     </div>
   </section>
 
-  <!-- ============ TESTIMONIALS ============ -->
-  <section class="section" style="padding-top:0;">
-    <div class="wrap">
-      <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-        <h2>What clients say</h2>
-        <p>Replace with real, attributed client quotes before publishing — do not publish fabricated testimonials.</p>
-      </div>
-      <div class="testimonial-card reveal">
-        <span class="placeholder-tag" style="top:20px;right:20px;">PLACEHOLDER</span>
-        <p class="testimonial-quote">"[Quote placeholder]"</p>
-        <p class="testimonial-attr">— [Name], [Title] · [Business], [Emirate]</p>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ FAQ ============ -->
   <section class="section" id="faq" style="padding-top:0;">
     <div class="wrap" style="max-width:820px;">
@@ -368,7 +414,7 @@
           <p>Website and ad-driven leads typically start within 2–4 weeks. SEO compounds over 3–6 months and becomes your lowest-cost channel long term.</p>
         </details>
         <details class="faq-item">
-          <summary>Do I need all eight services, or can I start with one?</summary>
+          <summary>Do I need all nine services, or can I start with one?</summary>
           <p>Start with whatever your business needs most — a website, a POS system, or a marketing engine. Most clients add services as growth demands it.</p>
         </details>
         <details class="faq-item">
@@ -381,7 +427,7 @@
         </details>
         <details class="faq-item">
           <summary>Do you work outside the UAE?</summary>
-          <p>Yes. Vintexora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.</p>
+          <p>Yes. Ventixora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.</p>
         </details>
         <details class="faq-item">
           <summary>Are there long-term contracts?</summary>
@@ -401,7 +447,7 @@
     'mainEntity' => [
       ['@type' => 'Question', 'name' => 'How long before I see results?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Website and ad-driven leads typically start within 2–4 weeks. SEO compounds over 3–6 months and becomes your lowest-cost channel long term.']],
       ['@type' => 'Question', 'name' => 'Do I need all services, or can I start with one?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Start with whatever your business needs most — a website, a POS system, or a marketing engine. Most clients add services as growth demands it.']],
-      ['@type' => 'Question', 'name' => 'Do you work outside the UAE?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Vintexora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.']],
+      ['@type' => 'Question', 'name' => 'Do you work outside the UAE?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'Yes. Ventixora serves businesses in the UAE, USA, United Kingdom and Canada, with local tax, payments and search behaviour in the brief.']],
       ['@type' => 'Question', 'name' => 'Are there long-term contracts?', 'acceptedAnswer' => ['@type' => 'Answer', 'text' => 'No lock-in contracts. We work month to month and earn renewal through results.']],
     ],
   ];

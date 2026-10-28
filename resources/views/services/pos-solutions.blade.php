@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'POS Solutions | UAE VAT, USA, UK & Canada | Vintexora')
+@section('title', 'POS Solutions | UAE VAT, USA, UK & Canada | Ventixora')
 @section('description', 'Retail, restaurant, pharmacy and multi-store POS with tax-ready invoices, inventory, KDS, loyalty and accounting for operators in the UAE, USA, UK and Canada.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">POS Solutions</span>
         </div>
@@ -228,7 +228,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>POS as part of the growth stack — not a hardware catalogue</h2>
       </div>
       <div class="why-list reveal">
@@ -246,7 +246,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora POS practice</th><th>Generic till + leftover plugins</th></tr>
+            <tr><th></th><th class="hl">Ventixora POS practice</th><th>Generic till + leftover plugins</th></tr>
           </thead>
           <tbody>
             <tr><td>VAT</td><td class="hl">Invoice + receipt tell the same story</td><td>Theme setting, hoped for</td></tr>

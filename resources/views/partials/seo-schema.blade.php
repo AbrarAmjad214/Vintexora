@@ -5,7 +5,7 @@
   $org = [
     '@context' => 'https://schema.org',
     '@type' => ['Organization', 'ProfessionalService'],
-    'name' => 'Vintexora',
+    'name' => 'Ventixora',
     'url' => url('/'),
     'logo' => asset(config('seo.og_image')),
     'description' => config('seo.default_description'),
@@ -24,10 +24,10 @@
   $website = [
     '@context' => 'https://schema.org',
     '@type' => 'WebSite',
-    'name' => 'Vintexora',
+    'name' => 'Ventixora',
     'url' => url('/'),
     'inLanguage' => 'en',
-    'publisher' => ['@type' => 'Organization', 'name' => 'Vintexora'],
+    'publisher' => ['@type' => 'Organization', 'name' => 'Ventixora'],
   ];
   $crumbs = [
     '@context' => 'https://schema.org',
@@ -58,7 +58,7 @@
               'name' => $svc['title'],
               'description' => $seoDescription,
               'url' => $canonical,
-              'provider' => ['@type' => 'Organization', 'name' => 'Vintexora', 'url' => url('/')],
+              'provider' => ['@type' => 'Organization', 'name' => 'Ventixora', 'url' => url('/')],
               'areaServed' => [
                   ['@type' => 'Country', 'name' => 'United Arab Emirates'],
                   ['@type' => 'Country', 'name' => 'United States'],

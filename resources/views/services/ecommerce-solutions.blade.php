@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'E-Commerce Solutions | UAE, USA, UK & Canada | Vintexora')
+@section('title', 'E-Commerce Solutions | UAE, USA, UK & Canada | Ventixora')
 @section('description', 'Shopify, WooCommerce, payment gateways, catalogues, conversion and B2B commerce for stores in the UAE, USA, UK and Canada — local tax, delivery and checkout.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">E-Commerce</span>
         </div>
@@ -200,7 +200,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>The store, the till, and the ads share a catalogue</h2>
       </div>
       <div class="why-list reveal">

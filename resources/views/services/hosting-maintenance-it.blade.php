@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'Hosting, Maintenance & IT Support | UAE, USA, UK & Canada | Vintexora')
+@section('title', 'Hosting, Maintenance & IT Support | UAE, USA, UK & Canada | Ventixora')
 @section('description', 'Web hosting, cloud, Microsoft 365, backups, monitoring and security updates for businesses in the UAE, USA, UK and Canada — restores that have been drilled.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">Hosting &amp; IT</span>
         </div>
@@ -91,7 +91,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>Boring is how UAE operators sleep</h2>
       </div>
       <div class="why-list reveal">
@@ -109,7 +109,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora hosting</th><th>Four vendors, four inboxes</th></tr>
+            <tr><th></th><th class="hl">Ventixora hosting</th><th>Four vendors, four inboxes</th></tr>
           </thead>
           <tbody>
             <tr><td>Restore</td><td class="hl">You have watched it succeed</td><td>A zip file from 2019</td></tr>

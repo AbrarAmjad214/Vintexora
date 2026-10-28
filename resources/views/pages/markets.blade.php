@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Digital Agency for UAE, USA, UK & Canada | Vintexora Markets')
-@section('description', 'Vintexora serves businesses in the UAE, United States, United Kingdom and Canada — websites, e-commerce, POS, SEO, ads, apps and automation with local market defaults.')
+@section('title', 'Digital Agency for UAE, USA, UK & Canada | Ventixora Markets')
+@section('description', 'Ventixora serves businesses in the UAE, United States, United Kingdom and Canada — websites, e-commerce, POS, SEO, ads, apps and automation with local market defaults.')
 
 @section('content')
 <main class="pg-about" id="top">
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner" style="grid-template-columns:1fr;">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <span class="current">Markets</span>
         </div>
         <div class="eyebrow">UAE · USA · UK · Canada</div>

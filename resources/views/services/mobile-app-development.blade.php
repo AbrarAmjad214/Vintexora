@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'Mobile App Development | Flutter, iOS, Android — UAE, USA, UK, Canada | Vintexora')
+@section('title', 'Mobile App Development | Flutter, iOS, Android — UAE, USA, UK, Canada | Ventixora')
 @section('description', 'Flutter, iOS and Android app design, UX and prototyping for customer apps and internal tools in the UAE, USA, UK and Canada.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">Mobile Apps</span>
         </div>
@@ -111,7 +111,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>Mobile is a surface of the same system — not a startup inside your startup</h2>
       </div>
       <div class="why-list reveal">
@@ -129,7 +129,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora mobile</th><th>Brochure app</th></tr>
+            <tr><th></th><th class="hl">Ventixora mobile</th><th>Brochure app</th></tr>
           </thead>
           <tbody>
             <tr><td>First slice</td><td class="hl">One job completed</td><td>Forty features in Figma</td></tr>

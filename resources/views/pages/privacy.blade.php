@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'Privacy Policy | Vintexora')
-@section('description', 'How Vintexora collects and uses enquiry data for clients in the UAE, USA, UK and Canada. PDPL-minded practice, no sale of personal data.')
+@section('title', 'Privacy Policy | Ventixora')
+@section('description', 'How Ventixora collects and uses enquiry data for clients in the UAE, USA, UK and Canada. PDPL-minded practice, no sale of personal data.')
 
 @section('content')
 <main class="pg-legal" id="top">
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner" style="grid-template-columns:1fr;">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <span class="current">Privacy</span>
         </div>
         <div class="eyebrow">Legal</div>
@@ -35,7 +35,7 @@
       </nav>
       <div class="legal-prose reveal">
         <h2 id="who">Who we are</h2>
-        <p>Vintexora is a UAE digital growth practice offering web design, e-commerce, POS, marketing, apps, automation, QA and hosting. This policy covers vintexora.com (and this site while it is in preview) and the enquiry forms on it.</p>
+        <p>Ventixora is a UAE digital growth practice offering web design, e-commerce, POS, marketing, apps, automation, QA and hosting. This policy covers ventixora.com (and this site while it is in preview) and the enquiry forms on it.</p>
 
         <h2 id="collect">What we collect</h2>
         <p>When you request a growth audit or otherwise contact us, we collect the details you submit: name, email, WhatsApp number, business name, service interest, and your message. Server logs may include IP address, browser type and pages visited for security and diagnostics.</p>

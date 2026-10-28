@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'Branding & Visual Identity | UAE, USA, UK & Canada | Vintexora')
+@section('title', 'Branding & Visual Identity | UAE, USA, UK & Canada | Ventixora')
 @section('description', 'Brand strategy, logo, identity, guidelines, company profiles and decks for firms in the UAE, USA, UK and Canada — marks that survive web, ads and print.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">Branding</span>
         </div>
@@ -36,7 +36,7 @@
             <div class="bb-cell"><small>PALETTE</small><div class="swatches"><i></i><i></i><i></i><i></i></div></div>
           </div>
           <div class="bb-row">
-            <div class="bb-cell"><small>EN LOCKUP</small><div class="bb-type" style="font-size:16px;">VINTEXORA</div></div>
+            <div class="bb-cell"><small>EN LOCKUP</small><div class="bb-type" style="font-size:16px;">VENTIXORA</div></div>
             <div class="bb-cell"><small>AR READY</small><div class="bb-type" style="font-size:16px;">AR / EN</div></div>
           </div>
         </div>
@@ -72,7 +72,7 @@
       <div class="section-head reveal">
         <div class="eyebrow">Surface testing</div>
         <h2>If it fails on a receipt, it is not ready</h2>
-        <p>We stress-test the winner on a website header, a POS receipt, a Meta ad, and a dark-mode UI — because Vintexora will likely build those surfaces next.</p>
+        <p>We stress-test the winner on a website header, a POS receipt, a Meta ad, and a dark-mode UI — because Ventixora will likely build those surfaces next.</p>
       </div>
       <div class="surface-grid reveal">
         <div class="surface-card"><div class="surface-preview">WEB HEADER</div><h3>Website</h3><p>Favicon to hero. Dark UI contrast included.</p></div>
@@ -88,7 +88,7 @@
       <div class="lockup reveal">
         <div>
           <small>ENGLISH</small>
-          <strong>VINTEXORA</strong>
+          <strong>VENTIXORA</strong>
           <p style="color:var(--muted);margin-top:12px;font-size:14px;">Clear space, weight, and a wordmark that holds next to Arabic without shrinking into a caption.</p>
         </div>
         <div>
@@ -119,7 +119,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>Branding that survives contact with ads, the till, and a tender portal</h2>
       </div>
       <div class="why-list reveal">
@@ -137,7 +137,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Brand system (Vintexora)</th><th>Logo-only freelancer</th></tr>
+            <tr><th></th><th class="hl">Brand system (Ventixora)</th><th>Logo-only freelancer</th></tr>
           </thead>
           <tbody>
             <tr><td>Deliverable</td><td class="hl">Strategy, mark, identity, guidelines, first live surface</td><td>A PNG and a disappearing Inbox</td></tr>

@@ -1,4 +1,4 @@
-/* Glowth-style stepwise motion — unique panels, sticky stages, marquee */
+/* Stepwise motion — sticky stages, marquee */
 
 .marquee{
   overflow:hidden;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);

@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'AI & Business Automation | UAE, USA, UK & Canada | Vintexora')
+@section('title', 'AI & Business Automation | UAE, USA, UK & Canada | Ventixora')
 @section('description', 'AI chatbots, workflow automation, CRM automation and AI integrations for teams in the UAE, USA, UK and Canada — fewer manual hours, grounded answers, no invented prices.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">AI Automation</span>
         </div>
@@ -186,7 +186,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>Automation beside the website, ads, and POS</h2>
       </div>
       <div class="why-list reveal">
@@ -204,7 +204,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora automation</th><th>Chatbot plugin</th></tr>
+            <tr><th></th><th class="hl">Ventixora automation</th><th>Chatbot plugin</th></tr>
           </thead>
           <tbody>
             <tr><td>Knowledge</td><td class="hl">Your FAQs, catalogue, policies</td><td>Invented AED figures</td></tr>

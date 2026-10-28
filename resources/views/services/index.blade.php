@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Vintexora Services | Web, E-Commerce, POS, Marketing — UAE, USA, UK, Canada')
-@section('description', 'Explore Vintexora services for the UAE, USA, UK and Canada: web design, e-commerce, hosting, branding, digital marketing, apps, AI automation, QA and POS.')
+@section('title', 'Ventixora Services | Web, E-Commerce, POS, Marketing — UAE, USA, UK, Canada')
+@section('description', 'Explore Ventixora services for the UAE, USA, UK and Canada: web design, e-commerce, hosting, branding, digital marketing, apps, AI automation, QA and POS.')
 
 @section('content')
 <main class="sp">
   <section class="cine-hero">
     <div class="cine-bg">
-      <img src="{{ asset('images/services/services-hero.png') }}" alt="Dubai night skyline — Vintexora services">
+      <img src="{{ asset('images/services/services-hero.png') }}" alt="Dubai night skyline — Ventixora services">
     </div>
     <div class="cine-veil"></div>
     <div class="cine-scan"></div>

@@ -31,7 +31,7 @@
 <meta name="twitter:description" content="{{ $seoDescription }}">
 <meta name="twitter:image" content="{{ $ogImage }}">
 <meta name="theme-color" content="#060710">
-<meta name="author" content="Vintexora">
+<meta name="author" content="Ventixora">
 <meta name="geo.placename" content="Dubai, United Arab Emirates">
 <meta name="geo.region" content="AE">
 <link rel="icon" href="{{ asset(config('seo.og_image')) }}" type="image/png">

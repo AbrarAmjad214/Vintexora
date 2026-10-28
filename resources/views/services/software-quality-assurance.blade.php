@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'Software Quality Assurance | Testing & QA — UAE, USA, UK, Canada | Vintexora')
+@section('title', 'Software Quality Assurance | Testing & QA — UAE, USA, UK, Canada | Ventixora')
 @section('description', 'Manual, automation, performance, regression, cross-browser, load and stress testing for digital products in the UAE, USA, UK and Canada. Launch is a gate.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">QA Testing</span>
         </div>
@@ -133,7 +133,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>QA that understands VAT, POS-adjacent orders, and Meta in-app cookies</h2>
       </div>
       <div class="why-list reveal">
@@ -151,7 +151,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora QA</th><th>Offshore click farm</th></tr>
+            <tr><th></th><th class="hl">Ventixora QA</th><th>Offshore click farm</th></tr>
           </thead>
           <tbody>
             <tr><td>Cases</td><td class="hl">Mapped to money journeys</td><td>Generic ISO binder</td></tr>

@@ -1,6 +1,6 @@
 @extends('layouts.service')
 
-@section('title', 'Digital Marketing | SEO, Google Ads, Meta Ads — UAE, USA, UK, Canada | Vintexora')
+@section('title', 'Digital Marketing | SEO, Google Ads, Meta Ads — UAE, USA, UK, Canada | Ventixora')
 @section('description', 'SEO, local SEO, Google Ads, Meta Ads, social, content and marketing automation for brands in the UAE, USA, UK and Canada — one scoreboard, not orphaned retainers.')
 
 @section('content')
@@ -11,7 +11,7 @@
     <div class="wrap hero-inner">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <a href="{{ route('services.index') }}">Services</a><span class="sep">/</span>
           <span class="current">Digital Marketing</span>
         </div>
@@ -159,7 +159,7 @@
   <section class="section tight">
     <div class="wrap">
       <div class="section-head reveal">
-        <div class="eyebrow">Why Vintexora</div>
+        <div class="eyebrow">Why Ventixora</div>
         <h2>The landing page, the POS offer, and the ad account share a strategist</h2>
       </div>
       <div class="why-list reveal">
@@ -177,7 +177,7 @@
       <div class="compare-wrap reveal">
         <table>
           <thead>
-            <tr><th></th><th class="hl">Vintexora demand system</th><th>SEO shop + ads freelancer</th></tr>
+            <tr><th></th><th class="hl">Ventixora demand system</th><th>SEO shop + ads freelancer</th></tr>
           </thead>
           <tbody>
             <tr><td>Landing pages</td><td class="hl">Same sprint as the campaign</td><td>Homepage, three weeks later</td></tr>

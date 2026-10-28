@@ -3,8 +3,8 @@
     <div class="footer-top">
       <div>
         <div class="footer-brand">
-          <img src="{{ asset('images/brand-7ee39eaf42.png') }}" alt="Vintexora logo">
-          <span>VINTEXORA</span>
+          <img src="{{ asset(config('seo.mark')) }}" alt="Ventixora logo" width="34" height="34">
+          <span>VENTIXORA</span>
         </div>
         <p class="footer-tagline">Full-stack digital growth for businesses in the UAE, USA, UK and Canada — web, e-commerce, POS, marketing and automation.</p>
         <a href="#audit" class="btn btn-primary" style="margin-top:18px;">Get a Free Growth Audit</a>
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© {{ date('Y') }} VINTEXORA — ALL SYSTEMS OPERATIONAL</p>
+      <p>© {{ date('Y') }} VENTIXORA · ventixora.com</p>
       <p>UAE · USA · UK · CANADA · <a href="{{ route('privacy') }}">Privacy</a></p>
     </div>
   </div>

@@ -1,7 +1,7 @@
 @extends('layouts.service')
 
-@section('title', 'About Vintexora | Digital Agency — UAE, USA, UK & Canada')
-@section('description', 'Vintexora is a digital growth agency for the UAE, USA, UK and Canada: websites, e-commerce, POS, marketing, apps, AI automation and QA — one team, no lock-in.')
+@section('title', 'About Ventixora | Digital Agency — UAE, USA, UK & Canada')
+@section('description', 'Ventixora is a digital growth agency for the UAE, USA, UK and Canada: websites, e-commerce, POS, marketing, apps, AI automation and QA — one team, no lock-in.')
 
 @section('content')
 <main class="pg-about" id="top">
@@ -11,12 +11,12 @@
     <div class="wrap hero-inner" style="grid-template-columns:1fr;">
       <div>
         <div class="breadcrumb">
-          <a href="{{ url('/') }}">Vintexora</a><span class="sep">/</span>
+          <a href="{{ url('/') }}">Ventixora</a><span class="sep">/</span>
           <span class="current">About</span>
         </div>
         <div class="eyebrow">About · UAE</div>
         <h1>One team for the website, the store, the till, and the demand that fills them.</h1>
-        <p class="hero-sub">Vintexora exists because UAE operators were tired of a web freelancer, a POS vendor, and an ads agency who would not read each other’s reports. We sit in the middle on purpose.</p>
+        <p class="hero-sub">Ventixora exists because UAE operators were tired of a web freelancer, a POS vendor, and an ads agency who would not read each other’s reports. We sit in the middle on purpose.</p>
         <div class="hero-ctas">
           <a href="#audit" class="btn btn-primary">Get a Free Growth Audit</a>
           <a href="{{ route('services.index') }}" class="btn btn-ghost">See all services</a>

@@ -5,6 +5,10 @@
 <form class="audit-form" method="POST" action="{{ route('audit.store') }}" id="{{ $idPrefix }}-form">
   @csrf
   <input type="hidden" name="source" value="{{ $source ?? 'site' }}">
+  <div class="hp-field" aria-hidden="true">
+    <label for="{{ $idPrefix }}-company-site">Leave this empty</label>
+    <input id="{{ $idPrefix }}-company-site" name="company_site" type="text" tabindex="-1" autocomplete="off">
+  </div>
 
   @if (session('audit_sent'))
     <div class="form-flash ok">Received. We will reply on email or WhatsApp within 48 hours.</div>
@@ -49,4 +53,9 @@
     <textarea id="{{ $idPrefix }}-message" name="message" rows="4" placeholder="What is leaking — leads, site, till, ads, or all of it?">{{ old('message') }}</textarea>
   </div>
   <button type="submit" class="btn btn-primary btn-block">{{ $submit ?? 'Claim My Free Audit' }}</button>
+  <p class="form-trust">
+    <span>✓ Free, no obligation</span>
+    <span>✓ Reply within 48 hours</span>
+    <span>✓ Your details stay private</span>
+  </p>
 </form>
