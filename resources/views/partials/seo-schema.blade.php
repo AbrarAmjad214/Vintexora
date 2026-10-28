@@ -1,7 +1,7 @@
 @php
   $canonical = trim($__env->yieldContent('canonical')) ?: url()->current();
-  $seoTitle = trim($__env->yieldContent('title')) ?: config('seo.name');
-  $seoDescription = trim($__env->yieldContent('description')) ?: config('seo.default_description');
+  $seoTitle = html_entity_decode(trim($__env->yieldContent('title')), ENT_QUOTES | ENT_HTML5, 'UTF-8') ?: config('seo.name');
+  $seoDescription = html_entity_decode(trim($__env->yieldContent('description')), ENT_QUOTES | ENT_HTML5, 'UTF-8') ?: config('seo.default_description');
   $org = [
     '@context' => 'https://schema.org',
     '@type' => ['Organization', 'ProfessionalService'],

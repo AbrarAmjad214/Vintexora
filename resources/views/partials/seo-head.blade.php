@@ -1,6 +1,7 @@
 @php
-  $seoTitle = trim($__env->yieldContent('title')) ?: config('seo.name');
-  $seoDescription = trim($__env->yieldContent('description')) ?: config('seo.default_description');
+  // Inline @section values arrive already escaped; decode so {{ }} escapes them only once.
+  $seoTitle = html_entity_decode(trim($__env->yieldContent('title')), ENT_QUOTES | ENT_HTML5, 'UTF-8') ?: config('seo.name');
+  $seoDescription = html_entity_decode(trim($__env->yieldContent('description')), ENT_QUOTES | ENT_HTML5, 'UTF-8') ?: config('seo.default_description');
   $canonical = trim($__env->yieldContent('canonical')) ?: url()->current();
   $ogType = trim($__env->yieldContent('og_type')) ?: 'website';
   $ogImage = trim($__env->yieldContent('og_image')) ?: asset(config('seo.og_image'));

@@ -12,13 +12,6 @@ class SeoController extends Controller
         $body = <<<TXT
 User-agent: *
 Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
 Disallow: /audit
 Disallow: /storage/
 
