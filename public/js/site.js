@@ -12,6 +12,8 @@
     toggle.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     document.body.classList.toggle('nav-open', open);
+    // Closing the menu must also close the services accordion, or body keeps drop-open (no scroll)
+    if (!open) setDropOpen(false);
   };
 
   const placeDrop = () => {

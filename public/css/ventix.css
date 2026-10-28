@@ -435,7 +435,21 @@ body.nav-open .cta-dock{opacity:0;pointer-events:none;}
   /* Mobile menu: bigger, clearly separated tap targets */
   .nav-links a,.mobile-services a{display:block;padding:11px 4px;font-size:15px;}
   .nav-links > a{border-bottom:1px solid rgba(255,255,255,0.06);}
-  .nav-links{background:rgba(12,13,40,0.98) !important;}
+  /* Full-screen solid menu; the blurred header let page text show through a translucent one */
+  .nav-links{
+    background:#0c0d28 !important;
+    height:calc(100vh - 64px);height:calc(100dvh - 64px);max-height:none !important;
+    padding:12px 22px calc(28px + env(safe-area-inset-bottom)) !important;
+  }
+  body.nav-open main,body.nav-open footer{visibility:hidden;}
+
+  /* Services collapse into an accordion so the main links stay visible */
+  .has-drop .drop-trigger{
+    display:flex !important;width:100%;justify-content:space-between;align-items:center;
+    padding:11px 4px;font-size:15px;color:var(--text);border-bottom:1px solid rgba(255,255,255,0.06);
+  }
+  .has-drop:not(.is-open) .mobile-services{display:none;}
+  .has-drop.is-open .mobile-services{display:grid;padding:6px 0 10px 12px;border-left:2px solid rgba(139,107,255,0.5);margin:6px 0 4px;}
   .nav-links .menu-cta{display:flex !important;justify-content:center;margin-top:14px;padding:14px 20px;color:#050510;font-size:14px;border:0;}
   .bento-card.big .why-num{font-size:90px;}
   .story-visual{transform:none;}
